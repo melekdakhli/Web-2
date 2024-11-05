@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cours css</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</head>
+<body>
+    <nav class="navbar">
+        <a href="index.html" class="home-button">Home</a>
+        <div>
+        <!-- <img src="images/LOGO.JPG" alt="Logo" class="img-fluid logo"> -->
+        <img src="images/iit.png" alt="Logo" class="img-fluid logo">
+        </div>
+    </nav>
+    
+  
+<div class="flex-container">
+        <div class="sidebar">
+                    <ul class="list-group">
+                        <li class="list-group-item"><a href="definition.html">Définition</a></li>
+
+                        <li class="list-group-item">
+                            <input type="checkbox" id="toggle-dropdown1" class="dropdown-checkbox">
+                            <label for="toggle-dropdown1" class="dropdown-toggle">Où écrire le style CSS</label>
+                            <ul class="dropdown-menu">
+                                <li><a href="Où écrire le style CSS.html">Où écrire le style CSS</a></li>
+                                <li><a href="Ou Local dans la balise.html">Local dans la balise</a></li>
+                                <li><a href="Style interne.html">Style interne</a></li>
+                                <li><a href="Style externe.html">Style externe</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="list-group-item"><a href="Definition style.html">Définition d'un style</a></li>
+                        <li class="list-group-item"><a href="Exemples CSS.html">Exemples CSS</a></li>
+                        <li class="list-group-item"><a href="appliquer.html">Appliquer un
+                                style à plusieurs balises</a></li>
+                        <li class="list-group-item"><a href="commentaire.html">Des commentaires dans du
+                                CSS</a></li>
+                        <li class="list-group-item"><a href="Utiliser les classes.html">Utiliser les classes</a></li>
+                        <li class="list-group-item"><a href="Lattribut id.html">L'attribut id</a></li>
+
+                        <li class="list-group-item">
+                            <input type="checkbox" id="toggle-dropdown2" class="dropdown-checkbox">
+                            <label for="toggle-dropdown2" class="dropdown-toggle">Les balises universelles</label>
+                            <ul class="dropdown-menu">
+                                <li><a href="Les balises universelles.html">Les balises universelles</a></li>
+                                <li><a href="balise_univ_exemple.html">Exemple</a></li>
+                            </ul>
+                        </li>
+                        <li class="list-group-item"><a href="Imbrications de balises .html">Appliquer un style à plusieurs
+                                balises</a></li>
+                        <li class="list-group-item"><a href="Taille du texte.html">Des commentaires dans du CSS</a></li>
+                        <li class="list-group-item">
+                            <input type="checkbox" id="toggle-dropdown3" class="dropdown-checkbox">
+                            <label for="toggle-dropdown3" class="dropdown-toggle">Police du texte</label>
+                            <ul class="dropdown-menu">
+                                <li><a href="Police du texte.html">Les balises universelles</a></li>
+                                <li><a href="exemple_police_text.html">Exemple</a></li>
+                            </ul>
+                        </li>
+                        <li class="list-group-item"><a href="Alignement_du_texte.html">Alignement du texte</a></li>
+                        <li class="list-group-item"><a href="Lindication.html">L'indentation: la mise en retrait du
+                                texte</a></li>
+                        <li class="list-group-item"><a href="effet.html">Effets de style </a></li>
+                        <li class="list-group-item"><a href="les_majus.html">Les majuscules en CSS</a></li>
+                        <li class="list-group-item"><a href="La_décoration_du _texte.html">La décoration du texte </a></li>
+                        <li class="list-group-item"><a href="Les couleurs .html"> Les couleurs </a></li>
+                    </ul>
+            </div>
+        <div class="container mt-4">
+        <div class="row">
+            
+               
+            <div class="col-md-9">
+                <h2>L'attribut id</h2>
+
+               
+                <p>
+    
+                    Il fonctionne exactement de la même manière que class, à un 
+                    détail prêt : <br> 
+                    il ne peut être utilisé qu’une fois. <br>
+                    En pratique, nous ne mettrons des<span class="blue">"id"</span>  que sur des éléments qui 
+                    sont uniques  sur votre page, comme par exemple le logo :
+                    <code>
+                        <span class="bold">&lt;img </span> 
+                        <span class="blue">src="images/logo.png"</span> 
+                        <span class="black">id="logo"</span> 
+                        
+                        <span class="bold">/&gt;</span>
+                    </code>
+                    <br>
+                 Dans le CSS, ce n'est 
+                    pas un point que vous devez mettre avant le nom de l'id,  mais 
+                    un dièse (#) :
+                    <br>
+                    <code class="droite">
+                        <span class="bold">#logo </span> <br>
+                        <span class="orange">{ </span> <br>
+                       
+                        <span class="green"> /* Mettez les propriétés CSS ici */ </span>  <br>
+                        <span class="orange">}</span>
+                    </code>  
+                    
+</p>   
+
+            </div>
+ 
+        </div> 
+        <div class="button-container">
+            <button onclick="location.href='Utiliser les classes.html'">Précedent</button>
+
+
+            <button onclick="location.href='Les balises universelles.html'">Suivant</button>
+       
+    </div>
+        </div>
+    </div>
+
+</body>
+</html>
+
+
+          
+               
+    
